@@ -1,0 +1,19 @@
+@charset "UTF-8";
+*{
+
+    
+}
+
+body{
+    background-image:linear-gradient(to top, #071108,#364652,#C7DBE6);
+    background-attachment:fixed;
+    }
+    h1{
+        color:rgb(78, 78, 78);font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    h2{
+        color:whitesmoke
+    }
+    p{
+        color:whitesmoke
+    }
