@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-color: #608ff579;
+}
+header{
+    background-image: linear-gradient(to right, #f50f0785, #1644a863);
+    text-align: left;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+nav{
+    
+    text-align: left;
+    padding-left:20 px;
+    background-color: #608EF5;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+a{
+    margin-right: 20px;
+    color: white;
+    text-decoration:dashed;
+    
+
+
+}
+
