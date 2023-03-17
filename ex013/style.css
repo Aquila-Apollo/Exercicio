@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-    background-color: #608ff579;
+    background-color: whitesmoke;
 }
 header{
     background-image: linear-gradient(to right, #f50f0785, #1644a863);
@@ -12,7 +12,8 @@ header{
     padding-top: 10px;
     padding-bottom: 10px;
     font-weight: 700;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
 }
 nav{
     
@@ -23,6 +24,7 @@ nav{
     padding: 10px;
     color: white;
     font-size: 18px;
+    border-radius: 3px;
 }
 a{
     margin-right: 20px;
@@ -32,4 +34,31 @@ a{
 
 
 }
+a:hover{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 3px;
+}
+span{
+position: absolute; left: 480px;top: 3px;
+}
+main{
+    background-color: #608EF5;
+    height:30em;
+    border-radius:10px;
+    padding-top: 3px;
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 4em;
+    max-height: 500px;
+    padding-left: 100px;
+    color: white;
+    font-family: serif;
+}
+div{
+    padding-bottom: 100px;
+}
+    
+
 
