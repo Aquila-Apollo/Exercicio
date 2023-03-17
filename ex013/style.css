@@ -1,64 +1,73 @@
 @charset "UTF-8";
 
-body{
-    background-color: whitesmoke;
+body {
+  background-color: whitesmoke;
 }
-header{
-    background-image: linear-gradient(to right, #f50f0785, #1644a863);
-    text-align: left;
-    font-size: 3em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
+header {
+  background-image: linear-gradient(to right, #f50f0785, #1644a863);
+  text-align: left;
+  font-size: 3em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
-nav{
-    
-    text-align: left;
-    padding-left:20 px;
-    background-color: #608EF5;
-    margin-top: 10px;
-    padding: 10px;
-    color: white;
-    font-size: 18px;
-    border-radius: 3px;
+nav {
+  text-align: left;
+  padding-left: 20 px;
+  background-color: #608ef5;
+  margin-top: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 3px;
 }
-a{
-    margin-right: 20px;
-    color: white;
-    text-decoration:dashed;
-    
-
-
+a {
+  margin-right: 20px;
+  color: white;
+  text-decoration: dashed;
+  transition: all 200ms;
 }
-a:hover{
-    color: black;
-    background-color: rgb(255, 255, 255);
-    padding: 3px;
-    border-radius: 3px;
+a:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  padding: 3px;
+  border-radius: 3px;
 }
-span{
-position: absolute; left: 480px;top: 3px;
+span {
+  position: absolute;
+  left: 480px;
+  top: 3px;
 }
-main{
-    background-color: #608EF5;
-    height:30em;
-    border-radius:10px;
-    padding-top: 3px;
-    margin-top: 10px;
-    margin-left: 4px;
-    font-size: 4em;
-    max-height: 500px;
-    padding-left: 100px;
-    color: white;
-    font-family: serif;
+main {
+  background-color: #608ef5;
+  height: 30em;
+  border-radius: 10px;
+  padding-top: 3px;
+  margin-top: 10px;
+  margin-left: 4px;
+  font-size: 4em;
+  max-height: 500px;
+  color: white;
+  font-family: serif;
 }
-div{
-    padding-bottom: 100px;
+.hero-section {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding: 3rem 0;
+  background-color: #608ef5;
 }
-    
-
-
+.hero-section .container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1120px;
+  font-size: 20;
+  margin: 2rem;
+}
+.container h1 {
+  font-size: 5rem;
+}
