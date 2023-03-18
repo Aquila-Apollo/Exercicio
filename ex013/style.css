@@ -29,7 +29,7 @@ a {
   margin-right: 20px;
   color: white;
   text-decoration: dashed;
-  transition: all 200ms;
+  transition: all 300ms;
 }
 a:hover {
   color: black;
@@ -42,7 +42,7 @@ span {
   left: 480px;
   top: 3px;
 }
-main {
+#hr {
   background-color: #608ef5;
   height: 30em;
   border-radius: 10px;
@@ -67,7 +67,25 @@ main {
   max-width: 1120px;
   font-size: 20;
   margin: 2rem;
+  border-radius: 10px;
 }
 .container h1 {
   font-size: 5rem;
+}
+
+.second-section {
+  background-color: #608ef5;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  border-radius: 10px;
+}
+#ST {
+  font-size: 6rem;
+  color: white;
+  padding-top: 8rem;
+  padding-left: 9rem;
+}
+.casa {
 }
